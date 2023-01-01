@@ -14,7 +14,12 @@ let capitalize = (aString) => {
     return console.log(finalString);
 }
 
+let lastLetter = (lastIndex) => {
+    return console.log(lastIndex.slice(lastIndex.length - 1));
+}
+
 
 add7(13);
 multiply(2, 5);
 capitalize("hAPPy NEW year!!!!!!");
+lastLetter("have an awesome new year!!!! yeehaw")
